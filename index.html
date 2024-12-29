@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Камень-ножницы-бумага</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<canvas id="canvas" class="fon"></canvas>
+	<div class="game">
+		<h1>Камень-ножницы-бумага</h1>
+		<div class="counter-block">
+			<div class="count count-user">0</div>
+			<span>:</span>
+			<div class="count count-comp">0</div>
+		</div>
+		<div class="figure-container">
+			<div class="comp-field">
+				<button class="field rock" data-field="r"></button>
+				<button class="field scissors" data-field="s"></button>
+				<button class="field paper" data-field="p"></button>
+			</div>
+		</div>
+		<h3 class="result">Сделайте выбор</h3>
+	</div>
+	<div class="buttons">
+		<button class="play">Играть заново</button>
+	</div>
+
+	<audio class="sound"></audio>
+	
+	<script src="./js/app.js"></script>
+
+
+</body>
+</html>
